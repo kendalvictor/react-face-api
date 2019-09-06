@@ -11,4 +11,5 @@ COPY . $WEBAPP_DIR
 RUN pwd
 RUN ls
 RUN npm i --silent
+RUN npm install -g eslint-cli
 RUN npm ls | grep react
